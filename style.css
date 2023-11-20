@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.background {
+    background-color: #ffffff;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+.titleO{
+    color: rgb(255, 144, 144);
+    font-size: 80px;
+}
+.titleX{
+    color: #958bff;
+    font-size: 80px;
+}
+
+.display {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid rgb(131, 131, 131);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #958bff;
+}
+
+.playerO {
+    color: rgb(255, 144, 144)
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.restart {
+    background-color: #ffffff;
+}
+
+#reset {
+    background-color: #6f6f6f;
+}
